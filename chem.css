@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(50, 49, 49);
+    text-align: center;
+    padding: 100px 350px;
+}
+img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #333;
+}
+.main{
+    width: 300px;
+    height: 700px;
+    background-color: red;
+    padding: 10px;
+    margin: 20px;
+    border-color: none;
+    padding: 20px 80px;
+    border-radius: 8px;
+}
+h2, h3 {
+    font-size: 22px;
+    line-height: 30px ;
+}
+#demo {
+    background-color: black;
+    border: rgb(243, 160, 6);
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    color: blue;
+}
+h2, h3, p, #demo{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   font-style: normal;  
+}
+#demo:hover{
+    background-color: orangered;
+    color: black;
+}
+.index{
+    color: black;
+}
